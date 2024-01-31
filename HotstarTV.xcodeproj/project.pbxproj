@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183A63AA2AEBBD63008BFBD5 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A63A92AEBBD63008BFBD5 /* AppData.swift */; };
+		183A63AD2AEBFA6C008BFBD5 /* SelectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A63AC2AEBFA6C008BFBD5 /* SelectLanguageView.swift */; };
+		183A63AF2AEBFB65008BFBD5 /* SelectLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A63AE2AEBFB65008BFBD5 /* SelectLanguageViewModel.swift */; };
+		183A63B12AEBFB8A008BFBD5 /* SelectLanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183A63B02AEBFB8A008BFBD5 /* SelectLanguageModel.swift */; };
+		186326F42AF2817400BF43C9 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186326F32AF2817400BF43C9 /* SearchBarView.swift */; };
+		186326F62AF2817C00BF43C9 /* SearchBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186326F52AF2817C00BF43C9 /* SearchBarViewModel.swift */; };
+		1878ECBA2A7A59B400844C4B /* HotstarTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECB92A7A59B400844C4B /* HotstarTVApp.swift */; };
+		1878ECBC2A7A59B400844C4B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECBB2A7A59B400844C4B /* LoginView.swift */; };
+		1878ECBE2A7A59B600844C4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878ECBD2A7A59B600844C4B /* Assets.xcassets */; };
+		1878ECC22A7A59B600844C4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1878ECC12A7A59B600844C4B /* Preview Assets.xcassets */; };
+		1878ECCC2A7A59B700844C4B /* HotstarTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECCB2A7A59B700844C4B /* HotstarTVTests.swift */; };
+		1878ECD62A7A59B700844C4B /* HotstarTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECD52A7A59B700844C4B /* HotstarTVUITests.swift */; };
+		1878ECD82A7A59B700844C4B /* HotstarTVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECD72A7A59B700844C4B /* HotstarTVUITestsLaunchTests.swift */; };
+		1878ECE82A7A602B00844C4B /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECE72A7A602B00844C4B /* PasswordTextField.swift */; };
+		1878ECEC2A7A607300844C4B /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECEB2A7A607300844C4B /* AppImages.swift */; };
+		1878ECEE2A7A614C00844C4B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECED2A7A614C00844C4B /* LoginViewModel.swift */; };
+		1878ECF12A7A659D00844C4B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECF02A7A659D00844C4B /* DashboardView.swift */; };
+		1878ECF32A7A65AE00844C4B /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECF22A7A65AE00844C4B /* DashboardViewModel.swift */; };
+		1878ECF52A7A709500844C4B /* CustomPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878ECF42A7A709500844C4B /* CustomPlayer.swift */; };
+		18ABAEF52A8216BA00BBA014 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAEF42A8216BA00BBA014 /* SideMenuView.swift */; };
+		18ABAEF72A8217D800BBA014 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAEF62A8217D800BBA014 /* SideMenu.swift */; };
+		18ABAEFC2A821AB100BBA014 /* TVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAEFB2A821AB100BBA014 /* TVView.swift */; };
+		18ABAEFE2A821AD000BBA014 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAEFD2A821AD000BBA014 /* ProfileView.swift */; };
+		18ABAF002A821AE800BBA014 /* MySpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAEFF2A821AE800BBA014 /* MySpaceView.swift */; };
+		18ABAF032A821B7000BBA014 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAF022A821B7000BBA014 /* MainTabView.swift */; };
+		18ABAF052A822A7500BBA014 /* SideMenuUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ABAF042A822A7500BBA014 /* SideMenuUIKit.swift */; };
+		18D0BFDE2A7D019D006BF98D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0BFDD2A7D019D006BF98D /* TabBarView.swift */; };
+		18D0BFE02A7D01A7006BF98D /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0BFDF2A7D01A7006BF98D /* TabBarViewModel.swift */; };
+		18D0BFE32A7D01FA006BF98D /* SportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0BFE22A7D01FA006BF98D /* SportsView.swift */; };
+		18D0BFE92A7D0C70006BF98D /* FreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0BFE82A7D0C70006BF98D /* FreeView.swift */; };
+		18D0BFEC2A7D0CA9006BF98D /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0BFEB2A7D0CA9006BF98D /* PremiumView.swift */; };
+		18DF53DB2A7B89E700279395 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF53DA2A7B89E700279395 /* DashboardModel.swift */; };
+		18DF53DD2A7B8AA100279395 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF53DC2A7B8AA100279395 /* Extensions.swift */; };
+		18DF53E02A7B904500279395 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF53DF2A7B904500279395 /* CellView.swift */; };
+		18DF54212A7BE63D00279395 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF54202A7BE63D00279395 /* VideoPlayerView.swift */; };
+		18DF54232A7BEF7600279395 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF54222A7BEF7600279395 /* VideoPlayerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1878ECC82A7A59B700844C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1878ECAE2A7A59B400844C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878ECB52A7A59B400844C4B;
+			remoteInfo = HotTV;
+		};
+		1878ECD22A7A59B700844C4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1878ECAE2A7A59B400844C4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1878ECB52A7A59B400844C4B;
+			remoteInfo = HotTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183A63A92AEBBD63008BFBD5 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		183A63AC2AEBFA6C008BFBD5 /* SelectLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageView.swift; sourceTree = "<group>"; };
+		183A63AE2AEBFB65008BFBD5 /* SelectLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewModel.swift; sourceTree = "<group>"; };
+		183A63B02AEBFB8A008BFBD5 /* SelectLanguageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageModel.swift; sourceTree = "<group>"; };
+		186326F32AF2817400BF43C9 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		186326F52AF2817C00BF43C9 /* SearchBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewModel.swift; sourceTree = "<group>"; };
+		1878ECB62A7A59B400844C4B /* HotstarTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotstarTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878ECB92A7A59B400844C4B /* HotstarTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarTVApp.swift; sourceTree = "<group>"; };
+		1878ECBB2A7A59B400844C4B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		1878ECBD2A7A59B600844C4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1878ECBF2A7A59B600844C4B /* HotstarTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HotstarTV.entitlements; sourceTree = "<group>"; };
+		1878ECC12A7A59B600844C4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1878ECC72A7A59B700844C4B /* HotstarTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotstarTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878ECCB2A7A59B700844C4B /* HotstarTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarTVTests.swift; sourceTree = "<group>"; };
+		1878ECD12A7A59B700844C4B /* HotstarTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotstarTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1878ECD52A7A59B700844C4B /* HotstarTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarTVUITests.swift; sourceTree = "<group>"; };
+		1878ECD72A7A59B700844C4B /* HotstarTVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotstarTVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1878ECE72A7A602B00844C4B /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		1878ECEB2A7A607300844C4B /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		1878ECED2A7A614C00844C4B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1878ECF02A7A659D00844C4B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		1878ECF22A7A65AE00844C4B /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		1878ECF42A7A709500844C4B /* CustomPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlayer.swift; sourceTree = "<group>"; };
+		1878ECF62A7A728100844C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18ABAEF42A8216BA00BBA014 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		18ABAEF62A8217D800BBA014 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		18ABAEFB2A821AB100BBA014 /* TVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVView.swift; sourceTree = "<group>"; };
+		18ABAEFD2A821AD000BBA014 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		18ABAEFF2A821AE800BBA014 /* MySpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySpaceView.swift; sourceTree = "<group>"; };
+		18ABAF022A821B7000BBA014 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		18ABAF042A822A7500BBA014 /* SideMenuUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuUIKit.swift; sourceTree = "<group>"; };
+		18D0BFDD2A7D019D006BF98D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		18D0BFDF2A7D01A7006BF98D /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
+		18D0BFE22A7D01FA006BF98D /* SportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsView.swift; sourceTree = "<group>"; };
+		18D0BFE82A7D0C70006BF98D /* FreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeView.swift; sourceTree = "<group>"; };
+		18D0BFEB2A7D0CA9006BF98D /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		18DF53DA2A7B89E700279395 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		18DF53DC2A7B8AA100279395 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		18DF53DF2A7B904500279395 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		18DF54202A7BE63D00279395 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		18DF54222A7BEF7600279395 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1878ECB32A7A59B400844C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878ECC42A7A59B700844C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878ECCE2A7A59B700844C4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183A63A72AEBBD14008BFBD5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				183A63A82AEBBD1B008BFBD5 /* AppData */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		183A63A82AEBBD1B008BFBD5 /* AppData */ = {
+			isa = PBXGroup;
+			children = (
+				183A63A92AEBBD63008BFBD5 /* AppData.swift */,
+			);
+			path = AppData;
+			sourceTree = "<group>";
+		};
+		183A63AB2AEBFA60008BFBD5 /* SelectLanguage */ = {
+			isa = PBXGroup;
+			children = (
+				183A63AC2AEBFA6C008BFBD5 /* SelectLanguageView.swift */,
+				183A63AE2AEBFB65008BFBD5 /* SelectLanguageViewModel.swift */,
+				183A63B02AEBFB8A008BFBD5 /* SelectLanguageModel.swift */,
+			);
+			path = SelectLanguage;
+			sourceTree = "<group>";
+		};
+		186326F22AF2815400BF43C9 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				186326F32AF2817400BF43C9 /* SearchBarView.swift */,
+				186326F52AF2817C00BF43C9 /* SearchBarViewModel.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		1878ECAD2A7A59B400844C4B = {
+			isa = PBXGroup;
+			children = (
+				1878ECB82A7A59B400844C4B /* HotstarTV */,
+				1878ECCA2A7A59B700844C4B /* HotstarTVTests */,
+				1878ECD42A7A59B700844C4B /* HotstarTVUITests */,
+				1878ECB72A7A59B400844C4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1878ECB72A7A59B400844C4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECB62A7A59B400844C4B /* HotstarTV.app */,
+				1878ECC72A7A59B700844C4B /* HotstarTVTests.xctest */,
+				1878ECD12A7A59B700844C4B /* HotstarTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1878ECB82A7A59B400844C4B /* HotstarTV */ = {
+			isa = PBXGroup;
+			children = (
+				183A63A72AEBBD14008BFBD5 /* Data */,
+				1878ECF62A7A728100844C4B /* Info.plist */,
+				1878ECE62A7A602000844C4B /* Utilities */,
+				1878ECE42A7A600500844C4B /* Module */,
+				1878ECB92A7A59B400844C4B /* HotstarTVApp.swift */,
+				1878ECBD2A7A59B600844C4B /* Assets.xcassets */,
+				1878ECBF2A7A59B600844C4B /* HotstarTV.entitlements */,
+				1878ECC02A7A59B600844C4B /* Preview Content */,
+			);
+			path = HotstarTV;
+			sourceTree = "<group>";
+		};
+		1878ECC02A7A59B600844C4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECC12A7A59B600844C4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1878ECCA2A7A59B700844C4B /* HotstarTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECCB2A7A59B700844C4B /* HotstarTVTests.swift */,
+			);
+			path = HotstarTVTests;
+			sourceTree = "<group>";
+		};
+		1878ECD42A7A59B700844C4B /* HotstarTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECD52A7A59B700844C4B /* HotstarTVUITests.swift */,
+				1878ECD72A7A59B700844C4B /* HotstarTVUITestsLaunchTests.swift */,
+			);
+			path = HotstarTVUITests;
+			sourceTree = "<group>";
+		};
+		1878ECE42A7A600500844C4B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				186326F22AF2815400BF43C9 /* SearchBar */,
+				183A63AB2AEBFA60008BFBD5 /* SelectLanguage */,
+				18ABAF012A821B5600BBA014 /* MainTabView */,
+				18ABAEF82A82192C00BBA014 /* SideMenuSubViews */,
+				18ABAEF32A8216AA00BBA014 /* SideMenu */,
+				18D0BFEA2A7D0C9D006BF98D /* Premium */,
+				18D0BFE72A7D0C5A006BF98D /* Free */,
+				18D0BFE12A7D01EB006BF98D /* Sports */,
+				18D0BFDC2A7D018D006BF98D /* TabBar */,
+				18DF541F2A7BE62E00279395 /* VideoPlayerView */,
+				1878ECEF2A7A658600844C4B /* DashboardView */,
+				1878ECE52A7A600B00844C4B /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1878ECE52A7A600B00844C4B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECBB2A7A59B400844C4B /* LoginView.swift */,
+				1878ECED2A7A614C00844C4B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1878ECE62A7A602000844C4B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECEA2A7A604000844C4B /* ReusableComponents */,
+				1878ECEB2A7A607300844C4B /* AppImages.swift */,
+				18DF53DC2A7B8AA100279395 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1878ECEA2A7A604000844C4B /* ReusableComponents */ = {
+			isa = PBXGroup;
+			children = (
+				1878ECE72A7A602B00844C4B /* PasswordTextField.swift */,
+				1878ECF42A7A709500844C4B /* CustomPlayer.swift */,
+				18ABAF042A822A7500BBA014 /* SideMenuUIKit.swift */,
+			);
+			path = ReusableComponents;
+			sourceTree = "<group>";
+		};
+		1878ECEF2A7A658600844C4B /* DashboardView */ = {
+			isa = PBXGroup;
+			children = (
+				18DF53DE2A7B903400279395 /* Cell */,
+				1878ECF02A7A659D00844C4B /* DashboardView.swift */,
+				1878ECF22A7A65AE00844C4B /* DashboardViewModel.swift */,
+				18DF53DA2A7B89E700279395 /* DashboardModel.swift */,
+			);
+			path = DashboardView;
+			sourceTree = "<group>";
+		};
+		18ABAEF32A8216AA00BBA014 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAEF42A8216BA00BBA014 /* SideMenuView.swift */,
+				18ABAEF62A8217D800BBA014 /* SideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		18ABAEF82A82192C00BBA014 /* SideMenuSubViews */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAEFB2A821AB100BBA014 /* TVView.swift */,
+				18ABAEFD2A821AD000BBA014 /* ProfileView.swift */,
+				18ABAEFF2A821AE800BBA014 /* MySpaceView.swift */,
+			);
+			path = SideMenuSubViews;
+			sourceTree = "<group>";
+		};
+		18ABAF012A821B5600BBA014 /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				18ABAF022A821B7000BBA014 /* MainTabView.swift */,
+			);
+			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		18D0BFDC2A7D018D006BF98D /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18D0BFDD2A7D019D006BF98D /* TabBarView.swift */,
+				18D0BFDF2A7D01A7006BF98D /* TabBarViewModel.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		18D0BFE12A7D01EB006BF98D /* Sports */ = {
+			isa = PBXGroup;
+			children = (
+				18D0BFE22A7D01FA006BF98D /* SportsView.swift */,
+			);
+			path = Sports;
+			sourceTree = "<group>";
+		};
+		18D0BFE72A7D0C5A006BF98D /* Free */ = {
+			isa = PBXGroup;
+			children = (
+				18D0BFE82A7D0C70006BF98D /* FreeView.swift */,
+			);
+			path = Free;
+			sourceTree = "<group>";
+		};
+		18D0BFEA2A7D0C9D006BF98D /* Premium */ = {
+			isa = PBXGroup;
+			children = (
+				18D0BFEB2A7D0CA9006BF98D /* PremiumView.swift */,
+			);
+			path = Premium;
+			sourceTree = "<group>";
+		};
+		18DF53DE2A7B903400279395 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				18DF53DF2A7B904500279395 /* CellView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		18DF541F2A7BE62E00279395 /* VideoPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				18DF54202A7BE63D00279395 /* VideoPlayerView.swift */,
+				18DF54222A7BEF7600279395 /* VideoPlayerViewModel.swift */,
+			);
+			path = VideoPlayerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1878ECB52A7A59B400844C4B /* HotstarTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1878ECDB2A7A59B700844C4B /* Build configuration list for PBXNativeTarget "HotstarTV" */;
+			buildPhases = (
+				1878ECB22A7A59B400844C4B /* Sources */,
+				1878ECB32A7A59B400844C4B /* Frameworks */,
+				1878ECB42A7A59B400844C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotstarTV;
+			productName = HotTV;
+			productReference = 1878ECB62A7A59B400844C4B /* HotstarTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1878ECC62A7A59B700844C4B /* HotstarTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1878ECDE2A7A59B700844C4B /* Build configuration list for PBXNativeTarget "HotstarTVTests" */;
+			buildPhases = (
+				1878ECC32A7A59B700844C4B /* Sources */,
+				1878ECC42A7A59B700844C4B /* Frameworks */,
+				1878ECC52A7A59B700844C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1878ECC92A7A59B700844C4B /* PBXTargetDependency */,
+			);
+			name = HotstarTVTests;
+			productName = HotTVTests;
+			productReference = 1878ECC72A7A59B700844C4B /* HotstarTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1878ECD02A7A59B700844C4B /* HotstarTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1878ECE12A7A59B700844C4B /* Build configuration list for PBXNativeTarget "HotstarTVUITests" */;
+			buildPhases = (
+				1878ECCD2A7A59B700844C4B /* Sources */,
+				1878ECCE2A7A59B700844C4B /* Frameworks */,
+				1878ECCF2A7A59B700844C4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1878ECD32A7A59B700844C4B /* PBXTargetDependency */,
+			);
+			name = HotstarTVUITests;
+			productName = HotTVUITests;
+			productReference = 1878ECD12A7A59B700844C4B /* HotstarTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1878ECAE2A7A59B400844C4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1878ECB52A7A59B400844C4B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1878ECC62A7A59B700844C4B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1878ECB52A7A59B400844C4B;
+					};
+					1878ECD02A7A59B700844C4B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1878ECB52A7A59B400844C4B;
+					};
+				};
+			};
+			buildConfigurationList = 1878ECB12A7A59B400844C4B /* Build configuration list for PBXProject "HotstarTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1878ECAD2A7A59B400844C4B;
+			productRefGroup = 1878ECB72A7A59B400844C4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1878ECB52A7A59B400844C4B /* HotstarTV */,
+				1878ECC62A7A59B700844C4B /* HotstarTVTests */,
+				1878ECD02A7A59B700844C4B /* HotstarTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1878ECB42A7A59B400844C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878ECC22A7A59B600844C4B /* Preview Assets.xcassets in Resources */,
+				1878ECBE2A7A59B600844C4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878ECC52A7A59B700844C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878ECCF2A7A59B700844C4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1878ECB22A7A59B400844C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878ECEE2A7A614C00844C4B /* LoginViewModel.swift in Sources */,
+				18DF53DB2A7B89E700279395 /* DashboardModel.swift in Sources */,
+				18D0BFDE2A7D019D006BF98D /* TabBarView.swift in Sources */,
+				1878ECBC2A7A59B400844C4B /* LoginView.swift in Sources */,
+				18DF54232A7BEF7600279395 /* VideoPlayerViewModel.swift in Sources */,
+				1878ECF12A7A659D00844C4B /* DashboardView.swift in Sources */,
+				1878ECEC2A7A607300844C4B /* AppImages.swift in Sources */,
+				183A63B12AEBFB8A008BFBD5 /* SelectLanguageModel.swift in Sources */,
+				18ABAEF72A8217D800BBA014 /* SideMenu.swift in Sources */,
+				186326F62AF2817C00BF43C9 /* SearchBarViewModel.swift in Sources */,
+				18DF53DD2A7B8AA100279395 /* Extensions.swift in Sources */,
+				186326F42AF2817400BF43C9 /* SearchBarView.swift in Sources */,
+				18ABAEF52A8216BA00BBA014 /* SideMenuView.swift in Sources */,
+				18ABAF002A821AE800BBA014 /* MySpaceView.swift in Sources */,
+				18D0BFE32A7D01FA006BF98D /* SportsView.swift in Sources */,
+				18D0BFE92A7D0C70006BF98D /* FreeView.swift in Sources */,
+				183A63AA2AEBBD63008BFBD5 /* AppData.swift in Sources */,
+				18ABAEFC2A821AB100BBA014 /* TVView.swift in Sources */,
+				1878ECE82A7A602B00844C4B /* PasswordTextField.swift in Sources */,
+				183A63AD2AEBFA6C008BFBD5 /* SelectLanguageView.swift in Sources */,
+				18D0BFEC2A7D0CA9006BF98D /* PremiumView.swift in Sources */,
+				1878ECF52A7A709500844C4B /* CustomPlayer.swift in Sources */,
+				18ABAEFE2A821AD000BBA014 /* ProfileView.swift in Sources */,
+				18ABAF032A821B7000BBA014 /* MainTabView.swift in Sources */,
+				18D0BFE02A7D01A7006BF98D /* TabBarViewModel.swift in Sources */,
+				18DF53E02A7B904500279395 /* CellView.swift in Sources */,
+				18ABAF052A822A7500BBA014 /* SideMenuUIKit.swift in Sources */,
+				183A63AF2AEBFB65008BFBD5 /* SelectLanguageViewModel.swift in Sources */,
+				1878ECBA2A7A59B400844C4B /* HotstarTVApp.swift in Sources */,
+				1878ECF32A7A65AE00844C4B /* DashboardViewModel.swift in Sources */,
+				18DF54212A7BE63D00279395 /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878ECC32A7A59B700844C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878ECCC2A7A59B700844C4B /* HotstarTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1878ECCD2A7A59B700844C4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1878ECD82A7A59B700844C4B /* HotstarTVUITestsLaunchTests.swift in Sources */,
+				1878ECD62A7A59B700844C4B /* HotstarTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1878ECC92A7A59B700844C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1878ECB52A7A59B400844C4B /* HotstarTV */;
+			targetProxy = 1878ECC82A7A59B700844C4B /* PBXContainerItemProxy */;
+		};
+		1878ECD32A7A59B700844C4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1878ECB52A7A59B400844C4B /* HotstarTV */;
+			targetProxy = 1878ECD22A7A59B700844C4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1878ECD92A7A59B700844C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1878ECDA2A7A59B700844C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1878ECDC2A7A59B700844C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotstarTV/HotstarTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotstarTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotstarTV/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtwin.HotstarTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		1878ECDD2A7A59B700844C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HotstarTV/HotstarTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HotstarTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HotstarTV/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtwin.HotstarTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		1878ECDF2A7A59B700844C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtwin.HotTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotstarTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotstarTV";
+			};
+			name = Debug;
+		};
+		1878ECE02A7A59B700844C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtwin.HotTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotstarTV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HotstarTV";
+			};
+			name = Release;
+		};
+		1878ECE22A7A59B700844C4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtwin.HotTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotTV;
+			};
+			name = Debug;
+		};
+		1878ECE32A7A59B700844C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = thoughtwin.HotTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HotTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1878ECB12A7A59B400844C4B /* Build configuration list for PBXProject "HotstarTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878ECD92A7A59B700844C4B /* Debug */,
+				1878ECDA2A7A59B700844C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1878ECDB2A7A59B700844C4B /* Build configuration list for PBXNativeTarget "HotstarTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878ECDC2A7A59B700844C4B /* Debug */,
+				1878ECDD2A7A59B700844C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1878ECDE2A7A59B700844C4B /* Build configuration list for PBXNativeTarget "HotstarTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878ECDF2A7A59B700844C4B /* Debug */,
+				1878ECE02A7A59B700844C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1878ECE12A7A59B700844C4B /* Build configuration list for PBXNativeTarget "HotstarTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1878ECE22A7A59B700844C4B /* Debug */,
+				1878ECE32A7A59B700844C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1878ECAE2A7A59B400844C4B /* Project object */;
+}
